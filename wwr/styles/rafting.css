@@ -1,6 +1,6 @@
 :root {
     --primary-color: #055A05;
-    --secondary-color: #F4A261;
+    --secondary-color: #000000;
     --accent1-color: #DCEEF2;
     --accent2-color: #264653;
     --heading-font: Georgia, serif;
@@ -51,6 +51,7 @@ h1, h2 {
 nav, p, section, article {
     margin: 16px;
     padding: 8px;
+    color: var(--secondary-color);
 }
 
 .socialmedia a {
