@@ -53,3 +53,9 @@ code {
     border-radius: 20px;
     padding: 20px;
 }
+
+.stats {
+    bottom: 25px;
+    left: 25px;
+
+}
