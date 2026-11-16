@@ -39,9 +39,9 @@ header img {
 }
 header nav{
     display: flex;
-    justify-content: first baseline;
+    justify-content: flex-end;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
     margin: 0;
     padding: 0;
 
