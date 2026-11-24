@@ -3,29 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/poll-form.css">
     <title>Form</title>
 </head>
 
 <body>
     <main>
+        <h1>WDD 130 | HTML Form - User Poll
+        </h1>
         <form>
             <fieldset>
                 <legend>Contact Information</legend>
+                <div class="form-item label-narrow">
                 <label for="fullname">Full Name:</label>
-                <input type="text" id="fullname" name="fullname" required>
+                <input type="text" id="fullname" name="fullname" required></div>
+                <div class="form-item label-narrow">
                 <label for="useremail">Email:</label>
                 <input type="email" id="useremail" name="useremail" 
                 required>
-                <label for="quantity"> Select Quantity</label>
-                <select name="quantity" id="quantity">
-                    <option value="1"> One</option>
-                    <option value="2"> Two</option>
-                    <option value="3"> Three</option>
+                </div>
                 </select>
             </fieldset>
 
             <fieldset>
                 <legend>Questions</legend>
+                <div class="form-item label-narrow">
                 <label for="browser">What is your favorite internet browser</label>
                 <select name="browser" id="browser">
                     <option value="chrome">Chrome</option>
@@ -34,12 +36,19 @@
                     <option value="brave">Brave</option>
                     <option value="edge">Edge</option>
                     <option value="other">Other</option>
+                    </div>
                 </select>
+                <div class="form-item label-narrow">
                 <label for="pet">Do you have a household pet?</label>
                 <input type="checkbox" id="pet" name="pet">
+                </div>
+            
+                <div class="form-item">
                 <label for="places">List the places you have lived: </label>
-                <textarea name="places" id="places" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlan, Timbuktu Mali"></textarea>
+                <textarea name="places" id="places" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlan, Timbuktu Mali"></textarea> 
+                </div>
             </fieldset>
+            
             <button type="submit"> Submit Poll</button>
         </form>
     </main>
