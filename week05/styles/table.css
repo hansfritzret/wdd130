@@ -1,0 +1,26 @@
+table {
+  border-collapse: separate;
+  border: 2px solid rgb(0, 0, 0);
+  letter-spacing: 1px;
+  font-family:  Arial, sans-serif;
+}
+
+th, td {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 8px 12px;
+  text-align: center;
+}
+
+thead tr, tfoot tr {
+  background-color: rgb(2, 78, 165);
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+tbody tr:hover {
+    background-color: lightblue;
+
+}
+tbody tr:nth-child(even) {
+    background-color: lightgray;
+}
