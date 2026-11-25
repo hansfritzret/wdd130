@@ -227,6 +227,11 @@ footer p {
     width: 100%;
     height: 250px;
     border: 0px;
+    margin-top: 0;
+}
+.map h2 {
+    margin-bottom: 0;
+    padding-bottom: 5px;
 }
 .contact-form {
     grid-column: 2;
@@ -300,4 +305,17 @@ footer p {
 .message-row textarea {
     width: 100%;
     padding: 8px;
+}
+
+.title{
+    text-align: left;
+    background-color: transparent;
+
+}
+
+.map h2,
+.contact-form h2 {
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
 }
